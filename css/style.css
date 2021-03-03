@@ -1,0 +1,138 @@
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 0.8fr 1.2fr 3fr;
+  gap: 20px;
+  padding: 70px 28px;
+}
+
+.main-info {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-info h2 {
+  padding-top: 10px;
+  color: var(--very-dark-magenta);
+  font-size: 3rem;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.main-info p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--very-dark-magenta);
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+}
+
+.ratings__reviews,
+.ratings__report-guru,
+.ratings__best-tech {
+  height: 80px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--light-grayish-magenta);
+}
+
+.ratings .ratings__star-icons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonials {
+  font-size: 1.3rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials article {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  padding: 40px 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.testimonials .testimonials__buyer-info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonials__buyer-info div {
+  line-height: 20px;
+}
+
+.testimonials .testimonials__buyer-info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.testimonials .testimonials__buyer-info p {
+  font-weight: 700;
+}
+
+.testimonials .testimonials__buyer-info span {
+  color: var(--soft-pink);
+}
+
+.testimonials .testimonials__text {
+  line-height: 20px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}

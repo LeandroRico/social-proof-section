@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ratings__reviews,
+.ratings__report-guru,
+.ratings__best-tech {
+  flex-direction: row;
+}

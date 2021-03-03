@@ -1,0 +1,105 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  padding: 70px;
+}
+
+.main-info {
+  margin: 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 100px;
+  padding-top: 5px;
+}
+
+.main-info h2 {
+  padding-top: 0;
+  font-size: 4rem;
+  line-height: 50px;
+  padding-bottom: 10px;
+}
+
+.ratings {
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.4rem;
+}
+
+.ratings__reviews {
+  margin-bottom: 15px;
+}
+
+.ratings__report-guru {
+  margin-bottom: 15px;
+}
+
+.ratings__reviews,
+.ratings__report-guru,
+.ratings__best-tech {
+  height: 55px;
+  width: 85%;
+  justify-content: start;
+}
+
+.ratings .ratings__star-icons {
+  width: 25%;
+  margin: 0 20px 0 30px;
+}
+
+.testimonials {
+  max-width: 100%;
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.testimonials :nth-child(1) {
+  margin-right: 30px;
+}
+
+.testimonials :nth-child(2) {
+  margin-right: 30px;
+}
+
+.testimonials article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 0;
+  height: 250px;
+}
+
+.testimonials .testimonials__buyer-info {
+  align-items: flex-start;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.testimonials .testimonials__buyer-info div {
+  margin-right: 0;
+}
+
+.testimonials .testimonials__buyer-info img {
+  margin-right: 25px;
+}
+
+.testimonials .testimonials__buyer-info p {
+  font-weight: 500;
+}
+
+.testimonials .testimonials__text {
+  line-height: 25px;
+  margin-right: 0;
+}
