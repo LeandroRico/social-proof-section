@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section
 
-## Preview on GitHub Pages: [click here.](https://social-proof-section-tawny-one.vercel.app/ "click here.")
+## Preview on Vercel: [click here.](https://social-proof-section-tawny-one.vercel.app/ "click here.")
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
